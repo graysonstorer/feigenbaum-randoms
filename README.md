@@ -1,2 +1,2 @@
 # feigenbaum-randoms
-Random number generator written in Java. Utilizes a recursive random generator that mimics the behavior of the logistic map with Feigenbaum constants.
+This project is just a little ditty that I was working on because I was fascinated by the Feigenbaum constants for a spell. This whole program is essentially just a recursive function that mimics the logistic map (x_(n+1) = rx_(n)(1-x_(n)). The trick is that this equation has chaotic and quasi random behavior for c : c is a point that is affected by the feigenbaum constants. I added a few other foundational quasi random functions to the program like system nano time and Math.sin(1/ a really small number dependent on time).
